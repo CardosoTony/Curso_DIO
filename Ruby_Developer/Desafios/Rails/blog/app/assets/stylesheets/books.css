@@ -1,0 +1,80 @@
+body {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto 35px;
+  font-family: 'JetBrains Mono', monospace;
+  background-color: #040D12;
+  color: #93B1A6;
+}
+
+body h1 {
+  text-align: center;
+}
+
+body div p,
+#books div p {
+  text-align: justify;
+}
+
+#books p a,
+body a,
+div a {
+  text-decoration: none;
+  color: #5C8374;
+  border: 1px solid #5C8374;
+  padding: 2px 8px;
+  background-color: #183D3D;
+  font-weight: bold;
+}
+
+form div input[type="submit"],
+.button_to button {
+  margin-top: 15px;
+  color: #5C8374;
+  border: 1px solid #5C8374;
+  padding: 5px 10px;
+  background-color: #183D3D;
+  font-weight: bold;
+}
+
+form div input[type="submit"] {
+  width: 300px;
+}
+
+form div input[type="submit"]:hover,
+#books p a:hover,
+body a:hover,
+div a:hover,
+.button_to button:hover {
+  color: #183D3D;
+  background-color: #5C8374;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form div textarea,
+form div input {
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+form div textarea {
+  height: 120px;
+  resize: none;
+}
+
+#edit-book,
+#show-book {
+  display: table;
+  margin: 0 auto;
+}
+
+#show-book {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
