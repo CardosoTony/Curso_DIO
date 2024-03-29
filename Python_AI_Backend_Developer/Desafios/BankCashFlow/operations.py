@@ -55,7 +55,7 @@ while True:
             print(receipt)
 
         else:
-            print("\nOperation failed! O valor informado é inválido.")
+            print("\nOperation failed! The entered value is invalid.")
 
     elif option == "3":
         print("\n========== STATEMENT ==========")
